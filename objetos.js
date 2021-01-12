@@ -25,4 +25,5 @@ function print_person_recive_object(person) {
     
     console.log(`${name},${age}`);
 }
+
 print_person_recive_object(sacha)
