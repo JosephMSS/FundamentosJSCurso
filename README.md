@@ -49,4 +49,4 @@ Funcionamiento de clases en JavaScript| *Def*
 ----|---
 [Prototipos o "clases"](clasesJavaScript.js) | En JavaScript cunado habalmos de objetos , en realidad habalmos de prototipos y no de clases, a pesar de que en las nuevas versiones del lenguaje ya contamos con clases, al final podemos observar que terminan siendo prototipos pero se declaran de la misma manera que una clase en cualquier otro.
 Contexto de funciones: Quién es ```this```? | En el caso de que se quiera agregar un metodo a un objeto, no debemos crear una funcion flecha ya que si se hace de esta manera cuando querramos emplear ```this``` para referirnos a un atributo, no va a referirse al atributo sino que a `window`.
-
+[Herencia prototipal](herenciaPrototipal.js)| Lo que sucede en estos casos es que cunado llamamos a un metodo javaScript verifica si el prototipo tiene el metodo o atributo que llamamos, en caso de que no verifica en el prototipo del cual hereda y asi sucesivamente hasta encontrar respuesta o finalizar la cadena de herencia(`object`).
