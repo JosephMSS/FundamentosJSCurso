@@ -38,3 +38,9 @@ Comparaciones| *Def*
 --------------|----
 === | Empleamos la comparacion triple igual para qu esta se de manera estricta y compare tanto el contenido como el tipo de valor que es, a diferencia del `==`, el cual solo compara el contenido y retorna `true` a pesar de que sean diferentes.
 Efectos de igualar una variable a un objeto ya inicializado | Hacer esto  y cambiar los valores  de la nueva variable , <span style="color:#fc0339" >esto va a afectar va  afectar al objeto original</span> ya que segun javascript estos representan el mismo espacio en memoria
+
+Introducción a arrays | *Def*
+----|------
+[.filter()](filter.js) | Esta propiedad lleva una condicion la cual debe ser una funcion, los resultados los almacenamos en una variable. <span style="color:#fc0339" >Tomar en cuenta que filter nos retorna un nuevo array, este no modifica el original</span>.
+[.map](map.js)| Este metodo recibe una condicion por medion de una funcion la cual se encarga de modicifar un elemento 
+

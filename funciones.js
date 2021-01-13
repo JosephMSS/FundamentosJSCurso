@@ -1,7 +1,7 @@
 var name = 'Joseph';
 var age = 21;
 function print_Age() {
-    console.log(this.age);
+    console.log(age);
 }
 print_Age();
 
@@ -18,7 +18,7 @@ var sacha = {
 
 const ADULT = 18;
 //SI una funcion unicamente retorna una valor no hay necesidad de incluir el return
-const is_adult = ({ age }) => { age >= ADULT };
+const is_adult = ({ age }) =>  age >= ADULT ;
 // const is_adult = (person) => {
 //     return person.age >= ADULT;
 // }
