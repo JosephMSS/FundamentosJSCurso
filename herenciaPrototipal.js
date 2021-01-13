@@ -20,7 +20,7 @@ Person.prototype.hello = function () {
 //     console.log(response);
 //     return response;
 // }
-function Developer(name, last_name, height) {
+function Developer(name, last_name, height ) {
     this.name = name;
     this.last_name = last_name;
     this.height = height
