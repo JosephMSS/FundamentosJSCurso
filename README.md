@@ -51,3 +51,9 @@ Funcionamiento de clases en JavaScript| *Def*
 Contexto de funciones: Quién es ```this```? | En el caso de que se quiera agregar un metodo a un objeto, no debemos crear una funcion flecha ya que si se hace de esta manera cuando querramos emplear ```this``` para referirnos a un atributo, no va a referirse al atributo sino que a `window`.
 [Herencia prototipal](herenciaPrototipal.js)| Lo que sucede en estos casos es que cuando llamamos a un metodo javaScript verifica si el prototipo tiene el metodo o atributo que llamamos, en caso de que no lo encuentre, verifica en el prototipo del cual hereda y asi sucesivamente hasta encontrar respuesta o finalizar la cadena de herencia(`object`).
 [Herencia de clases](clases_herencia.js)| Para crear clases debemos emplear la palabra reservada `class`, ademas de implementar el metodo `contructor` para asignar y crear los atributos, ademas para crear mas metodos no hace falta la palabra `function`.Para la herencia debemo recordar que antes de emplear el `this`, nosotros debemos llamar al metodo `super`, para pasar los atributos necesarios al contructor de la clase padre.
+
+Funciones como parametros| *Def:*
+---|---
+[Funciones como parametros](FuncionesComoParametros.js)| Se pueden enviar funciones en JavaScript como cualquier otro parametro.
+
+
