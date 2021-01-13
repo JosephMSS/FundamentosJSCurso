@@ -45,3 +45,8 @@ Introducción a arrays | *Def*
 [.map()](map.js)| Este metodo recibe una condicion por medio de una funcion, la cual se encarga de modificar los elementos del array original, si deseamos hacer modificaciones sin afectar el original, entonces debemos pasar los datos como valor y no por referencia  y guardarlos en uno nuevo.
 [.reduce()](reduce.js)| Se encarga de reducir un array a un valor unico.
 
+Funcionamiento de clases en JavaScript| *Def*
+----|---
+[Prototipos o "clases"](clasesJavaScript.js) | En JavaScript cunado habalmos de objetos , en realidad habalmos de prototipos y no de clases, a pesar de que en las nuevas versiones del lenguaje ya contamos con clases, al final podemos observar que terminan siendo prototipos pero se declaran de la misma manera que una clase en cualquier otro.
+Contexto de funciones: Quién es ```this```? | En el caso de que se quiera agregar un metodo a un objeto, no debemos crear una funcion flecha ya que si se hace de esta manera cuando querramos emplear ```this``` para referirnos a un atributo, no va a referirse al atributo sino que a `window`.
+
