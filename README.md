@@ -42,5 +42,6 @@ Efectos de igualar una variable a un objeto ya inicializado | Hacer esto  y camb
 Introducción a arrays | *Def*
 ----|------
 [.filter()](filter.js) | Esta propiedad lleva una condicion la cual debe ser una funcion, los resultados los almacenamos en una variable. <span style="color:#fc0339" >Tomar en cuenta que filter nos retorna un nuevo array, este no modifica el original</span>.
-[.map](map.js)| Este metodo recibe una condicion por medio de una funcion, la cual se encarga de modificar los elementos del array original, si deseamos hacer modificaciones sin afectar el original, entonces debemos pasar los datos como valor y no por referencia  y guardarlos en uno nuevo.
+[.map()](map.js)| Este metodo recibe una condicion por medio de una funcion, la cual se encarga de modificar los elementos del array original, si deseamos hacer modificaciones sin afectar el original, entonces debemos pasar los datos como valor y no por referencia  y guardarlos en uno nuevo.
+[.reduce()](reduce.js)| Se encarga de reducir un array a un valor unico.
 
