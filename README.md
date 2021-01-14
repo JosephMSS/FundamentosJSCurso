@@ -74,3 +74,7 @@ Callbacks| *Def:*
     * fullfield: En caso de que se exitosa, para obtener el valor que obtuvo la promesa, usamos el metodo `.then()`, le pasamos una funcion en la cual el primer parametro de dicha funcion es el parameto esperado.
   * rejected: si falla existe el metodo `catch()`  el cual obtiene el error. 
  
+ Promesas Encadenadas|*Def*
+ ---|---
+ [Promesas encadenadas](promesasEncadenadas.js) |
+ [Promesas en paralelo](promesasParalelo.js)|Realizar las peticiones en paralelo permite un mayor rendimiento  en el programa.
