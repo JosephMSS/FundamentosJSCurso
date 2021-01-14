@@ -67,3 +67,4 @@ Como funciona el timpo en JS?| *Def:*
 Callbacks| *Def:*
 ---|---
 [Callbacks](callback.js)| 
+[Asincronismo](multiplesRequest.js)| Como podemos ver en el ejemplo las respuestas no estan en el orden en el que las enviamos, este es un ejemolo calro del asincronismo en JavaScript.
