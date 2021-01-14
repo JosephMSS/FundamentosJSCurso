@@ -63,3 +63,7 @@ Como funciona el asincronismo en Javascript?| JavaScript unicamente puede ejecut
 Como funciona el timpo en JS?| *Def:*
 ---|---
 [Tiempo](tiempo.js)| Recordar que cuando JavaScript manda funciones a la cola de tareas, esta se ejecutan hasta que la pila de ejecucion termine de con funciones principales. 
+
+Callbacks| *Def:*
+---|---
+[Callbacks](callback.js)| 
