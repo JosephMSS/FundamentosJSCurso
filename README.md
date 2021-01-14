@@ -59,3 +59,7 @@ Funciones como parametros| *Def:*
 Asincronismo en JavaScript|*Def:*
 ---|---
 Como funciona el asincronismo en Javascript?| JavaScript unicamente puede ejecutar las tareas una a la vez, per puede delegar las las tareas a otros procesos,  a este modelo de concurrencia se le conoce como `Event Loop`. Javascrit tiene una  `pila de ejecucion` en donde ejecuta las  funciones en el orden que hayamos establecido, cuando termine la ejecucion de la funcion la saca de la pila  y la bota. Cuando ejecuta un callback(una funcion que se ejecuta  cunado regresa la respuest del servidor),  mientras espera la respuesta, JavaScript seguira ejecutando elprograma principal. Cuando llegue `la respuesta` se almacena en la `cola de tareas` segun el `orden en el que van llegando`(peticiones a servidores, interacciones visuales, eventos que se realicen cada cierto tiempo). Cuando el programa se quede sin tareas en la `pila de ejecucion`, este va a seguir con la `cola de tareas`. Importante <span style="color:#fc0339" >no generar un cuello de botella en la pila de ejecucion</span>,sino se va a bloquear el `event loop`.
+
+Como funciona el timpo en JS?| *Def:*
+---|---
+[Tiempo](tiempo.js)| Recordar que cuando JavaScript manda funciones a la cola de tareas, esta se ejecutan hasta que la pila de ejecucion termine de con funciones principales. 
