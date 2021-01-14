@@ -69,5 +69,8 @@ Callbacks| *Def:*
 [Callbacks](callback.js)| 
 [Asincronismo](multiplesRequest.js)| Como podemos ver en el ejemplo las respuestas no estan en el orden en el que las enviamos, este es un ejemolo calro del asincronismo en JavaScript.
 [Manejar orden de peticiones](ordenRequest.js)| En caso de suceder errores en las peticiones se van a cortar en cadena.
-[Promesas](promesas.js)
-
+[Promesas](promesas.js)| Valores que aun no conocemos, estados: 
+* pending: 
+    * fullfield: En caso de que se exitosa, para obtener el valor que obtuvo la promesa, usamos el metodo `.then()`, le pasamos una funcion en la cual el primer parametro de dicha funcion es el parameto esperado.
+  * rejected: si falla existe el metodo `catch()`  el cual obtiene el error. 
+ 
