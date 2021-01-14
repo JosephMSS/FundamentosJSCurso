@@ -78,3 +78,4 @@ Callbacks| *Def:*
  ---|---
  [Promesas encadenadas](promesasEncadenadas.js) |
  [Promesas en paralelo](promesasParalelo.js)|Realizar las peticiones en paralelo permite un mayor rendimiento  en el programa.
+ [async-await](async-await.js)| Recordar que no todos los navegadores lo soportan 
